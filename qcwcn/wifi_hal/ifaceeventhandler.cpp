@@ -30,6 +30,7 @@
 #define LOG_TAG  "WifiHAL"
 #include <utils/Log.h>
 #include <time.h>
+#include <errno.h>
 
 #include "ifaceeventhandler.h"
 

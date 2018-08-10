@@ -24,6 +24,7 @@
 
 #include "wifi_hal.h"
 #include "common.h"
+#include <errno.h>
 
 interface_info *getIfaceInfo(wifi_interface_handle handle)
 {
